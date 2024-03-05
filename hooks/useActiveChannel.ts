@@ -1,3 +1,4 @@
+'use client'
 import { useEffect, useState } from "react";
 import { pusherClient } from "@/lib/pusher";
 import { Channel, Members } from "pusher-js";
